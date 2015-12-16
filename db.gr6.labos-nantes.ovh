@@ -1,0 +1,17 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL    604800
+@       IN      SOA     ns.gr6.labos-nantes.ovh messagerie.gr6.labos-nantes.ovh (
+                              3         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS              ns.gr6.labos-nantes.ovh.
+NS	IN      A               172.16.4.6
+@       IN      A               172.16.4.6
+smtp    IN      A               172.16.4.6
+gr6.labos-nantes.ovh.       IN      MX      10      smtp
+@       IN      AAAA            ::1
