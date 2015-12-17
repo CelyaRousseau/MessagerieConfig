@@ -1,0 +1,16 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 7.7.0 _Wheezy_ - Official Multi-architecture amd64/i386 NETINST #1 20141018-13:43]/ wheezy main
+
+#deb cdrom:[Debian GNU/Linux 7.7.0 _Wheezy_ - Official Multi-architecture amd64/i386 NETINST #1 20141018-13:43]/ wheezy main
+
+
+deb http://ftp.univ-pau.fr/linux/mirrors/debian/ wheezy main
+deb-src http://ftp.univ-pau.fr/linux/mirrors/debian/ wheezy main
+
+deb http://security.debian.org/ wheezy/updates main
+deb-src http://security.debian.org/ wheezy/updates main
+
+# wheezy-updates, previously known as 'volatile'
+deb http://ftp.univ-pau.fr/linux/mirrors/debian/ wheezy-updates main
+deb-src http://ftp.univ-pau.fr/linux/mirrors/debian/ wheezy-updates main
